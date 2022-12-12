@@ -19,6 +19,7 @@ at my dream job as a Front-end developer.
 - HTML
 - CSS
 - JavaScript(Basic)
+- Scss
 
 ### Code Example:
 
