@@ -1,0 +1,167 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #4d2323;
+}
+
+header {
+  background-color: #62b6b7;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.menu-link {
+  padding: 0 12px;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 50px;
+  color: #fff;
+  transition: ease 0.5s;
+}
+
+.menu-link:hover {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 11px;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 50px 30px 35px;
+  border-bottom: 10px solid #d7d1c9;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.profile img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.profile-title {
+  text-align: center;
+}
+
+.profile-name {
+  text-transform: uppercase;
+  font-weight: 700;
+  position: relative;
+}
+
+.profile-name::after {
+  content: "";
+  position: absolute;
+  bottom: -19px;
+  left: 50%;
+  margin-left: -70px;
+  width: 140px;
+  height: 2px;
+  background-color: #d7d1c9;
+}
+
+.profile-subtitle {
+  margin-top: 30px;
+}
+
+.section {
+  width: calc(50% - 20px);
+  padding: 10px;
+  padding-bottom: 35px;
+  border-bottom: 1px solid #d7d1c9;
+}
+
+
+.section-title {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #62b6b7;
+}
+
+.section ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.section:nth-child(5n + 1) {
+  border-bottom: none;
+}
+
+.section:last-child {
+  border-bottom: none;
+}
+
+.contact-item {
+  margin-top: 20px;
+}
+
+.skills-item {
+  margin-top: 30px;
+}
+
+.courses-item {
+  margin-top: 30px;
+}
+
+.languages-item {
+  margin-top: 30px;
+}
+
+.pre {
+  padding: 0;
+  margin: 0;
+}
+
+footer {
+  background-color: #62b6b7;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #fff;
+  line-height: 45px;
+}
+
+.course-link {
+  width: 121px;
+  height: 45px;
+  background-image: url(/rsschool-cv/img/rs_school_js.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
